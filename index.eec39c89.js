@@ -1,0 +1,2 @@
+var mainMenu=document.querySelector(".mainMenu"),closeMenu=document.querySelector(".closeMenu"),openMenu=document.querySelector(".openMenu"),menu_items=document.querySelectorAll("nav .mainMenu li a");function show(){mainMenu.style.display="flex",mainMenu.style.top="0"}function close(){mainMenu.style.top="-100%"}openMenu.addEventListener("click",show),closeMenu.addEventListener("click",close),menu_items.forEach((function(e){e.addEventListener("click",(function(){close()}))}));
+//# sourceMappingURL=index.eec39c89.js.map
